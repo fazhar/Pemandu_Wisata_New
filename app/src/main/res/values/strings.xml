@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pemandu Wisata - View</string>
+    <string name="create_account_instead"><u>Create account instead</u></string>
+    <string name="already_have_account"><u>Already have an account</u></string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <carbon.widget.LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:focusable="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:carbon_cornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/img_header"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_boat_foreground" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Cycling" />
+
+    </carbon.widget.LinearLayout>
+</FrameLayout>
